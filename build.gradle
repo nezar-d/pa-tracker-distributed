@@ -27,10 +27,8 @@ buildscript {
     dependencies {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
         classpath "mysql:mysql-connector-java:$mysqlVersion"
-
     }
 }
-
 
 apply plugin: DependenciesGraphPlugin
 
